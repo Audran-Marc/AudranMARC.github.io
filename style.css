@@ -1,1 +1,210 @@
-background-color: brown;
+.background1 {
+  background: no-repeat center
+    url("https://cdn.glitch.global/ba6bbaf6-d4fd-4b55-8291-aadaebdd79c8/bckgrnd.png?v=1642788394841");
+  background-size: cover;
+}
+
+.background2 {
+  background: no-repeat center
+    url("https://cdn.glitch.global/ba6bbaf6-d4fd-4b55-8291-aadaebdd79c8/New-Life.png?v=1642773631407");
+  background-size: cover;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(223, 223, 223);
+}
+
+#profil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+
+#ttl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(223, 223, 223);
+}
+
+#page1 {
+  height: 500px;
+}
+
+#page2 {
+  height: 700px;
+}
+
+#page3 {
+  height: 800px;
+}
+
+#page4 {
+  height: 600px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(223, 223, 223);
+}
+
+#paragraph {
+  display: block;
+  overflow: auto;
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(223, 223, 223);
+}
+
+#mmipic {
+  width: 400px;
+  min-width: 300px;
+  float: right;
+  display: flex;
+  margin-right: 1%;
+}
+
+#skills {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 20px;
+  color: rgb(223, 223, 223);
+}
+
+.box {
+  display: flex;
+  margin-left: 20px;
+}
+
+#photoshop {
+  width: 100px;
+  height: 100px;
+  flex: 25%;
+  padding: 5px;
+}
+
+#photoshop:hover {
+  transform: scale(115%);
+}
+
+#illustrator {
+  width: 100px;
+  height: 100px;
+  flex: 25%;
+  padding: 5px;
+}
+
+#illustrator:hover {
+  transform: scale(115%);
+}
+
+#dox {
+  width: 100px;
+  height: 100px;
+  flex: 25%;
+  padding: 5px;
+}
+
+#dox:hover {
+  transform: scale(115%);
+}
+
+#premiere {
+  width: 100px;
+  height: 100px;
+  flex: 25%;
+  padding: 5px;
+}
+
+#premiere:hover {
+  transform: scale(115%);
+}
+
+#myprojects {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(223, 223, 223);
+}
+
+.boiteprojet {
+  height: 250px;
+  width: 350px;
+  border: 5px solid black;
+  background: grey;
+  float: left;
+  margin: 20px;
+}
+
+#contactme {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(223, 223, 223);
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form {
+  width: 500px;
+}
+
+.input {
+  border: 2px solid;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.submit {
+  border: 2px solid;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
